@@ -1,0 +1,75 @@
+-- Contents are randomly generated during RTL generation.
+WIDTH=22;
+DEPTH=64;
+
+ADDRESS_RADIX=HEX;
+DATA_RADIX=HEX;
+
+CONTENT BEGIN
+
+00 : 1dad0b;
+01 : 1ed806;
+02 : 0146dd;
+03 : 06b1d5;
+04 : 242cea;
+05 : 23937d;
+06 : 28ca0c;
+07 : 1e9a23;
+08 : 281bdf;
+09 : 232807;
+0a : 1cf09a;
+0b : 2b97aa;
+0c : 26597e;
+0d : 04436f;
+0e : 3d2bbe;
+0f : 2fe3e1;
+10 : 3ae80c;
+11 : 0fe95b;
+12 : 21e676;
+13 : 1f7b1b;
+14 : 03d219;
+15 : 0ddbd1;
+16 : 0b92ba;
+17 : 04bced;
+18 : 359ab4;
+19 : 29d18c;
+1a : 397afd;
+1b : 39eef9;
+1c : 35d343;
+1d : 0b3614;
+1e : 1dba38;
+1f : 0901fd;
+20 : 0b84a3;
+21 : 0d56d3;
+22 : 283582;
+23 : 383a4f;
+24 : 121d2b;
+25 : 2a0224;
+26 : 191a80;
+27 : 37ea50;
+28 : 19815e;
+29 : 2c9c81;
+2a : 17e2d8;
+2b : 0c171d;
+2c : 22d4e8;
+2d : 242da7;
+2e : 22cfae;
+2f : 082f05;
+30 : 3a847e;
+31 : 27c53a;
+32 : 06ee90;
+33 : 14fe8d;
+34 : 3adb18;
+35 : 393631;
+36 : 122b2b;
+37 : 2e3746;
+38 : 02d78d;
+39 : 298e0e;
+3a : 07712e;
+3b : 3189db;
+3c : 13aa82;
+3d : 3b7542;
+3e : 09afa1;
+3f : 0062b5;
+
+END;

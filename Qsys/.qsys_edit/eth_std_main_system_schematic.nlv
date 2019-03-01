@@ -1,0 +1,24 @@
+# # File gsaved with Nlview version 6.3.8  2013-12-19 bk=1.2992 VDI=34 GEI=35
+# 
+preplace inst eth_std_main_system.ext_flash.tdt -pg 1
+preplace inst eth_std_main_system.ext_flash.clk -pg 1
+preplace inst eth_std_main_system.clk_50 -pg 1 -lvl 1 -y 200
+preplace inst eth_std_main_system.clk_125 -pg 1 -lvl 1 -y 260
+preplace inst eth_std_main_system.ext_flash.slave_translator -pg 1
+preplace inst eth_std_main_system.cpu.clock_bridge -pg 1
+preplace inst eth_std_main_system -pg 1 -lvl 1 -y 40 -regy -20
+preplace inst eth_std_main_system.tb_fsm_bridge -pg 1 -lvl 1 -y 530
+preplace inst eth_std_main_system.cpu.reset_bridge -pg 1
+preplace inst eth_std_main_system.sysid -pg 1 -lvl 1 -y 450
+preplace inst eth_std_main_system.ext_flash.tda -pg 1
+preplace inst eth_std_main_system.ext_flash.reset -pg 1
+preplace inst eth_std_main_system.cpu.cpu -pg 1
+preplace inst eth_std_main_system.cpu -pg 1 -lvl 1 -y 50
+preplace inst eth_std_main_system.ext_flash -pg 1 -lvl 1 -y 350
+preplace netloc FAN_IN<net_container>eth_std_main_system</net_container>(MASTER)cpu.data_master,(MASTER)cpu.instruction_master,(SLAVE)cpu.debug_mem_slave) 1 0 2 90 190 450
+preplace netloc EXPORT<net_container>eth_std_main_system</net_container>(SLAVE)eth_std_main_system.reset,(SLAVE)clk_50.clk_in_reset) 1 0 1 NJ
+preplace netloc EXPORT<net_container>eth_std_main_system</net_container>(SLAVE)eth_std_main_system.clk_0,(SLAVE)clk_125.clk_in) 1 0 1 NJ
+preplace netloc EXPORT<net_container>eth_std_main_system</net_container>(SLAVE)eth_std_main_system.clk,(SLAVE)clk_50.clk_in) 1 0 1 NJ
+preplace netloc EXPORT<net_container>eth_std_main_system</net_container>(SLAVE)clk_125.clk_in_reset,(SLAVE)eth_std_main_system.reset_0) 1 0 1 NJ
+levelinfo -pg 1 0 60 490
+levelinfo -hier eth_std_main_system 70 210 470

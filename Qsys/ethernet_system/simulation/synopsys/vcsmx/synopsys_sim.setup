@@ -1,0 +1,46 @@
+
+WORK > DEFAULT
+DEFAULT:                             ./libraries/work/                               
+work:                                ./libraries/work/                               
+error_adapter_0:                     ./libraries/error_adapter_0/                    
+timing_adapter_0:                    ./libraries/timing_adapter_0/                   
+rsp_mux:                             ./libraries/rsp_mux/                            
+rsp_demux:                           ./libraries/rsp_demux/                          
+cmd_mux:                             ./libraries/cmd_mux/                            
+cmd_demux:                           ./libraries/cmd_demux/                          
+router_002:                          ./libraries/router_002/                         
+router:                              ./libraries/router/                             
+ethernet_bridge_m0_limiter:          ./libraries/ethernet_bridge_m0_limiter/         
+router_001:                          ./libraries/router_001/                         
+avalon_st_adapter:                   ./libraries/avalon_st_adapter/                  
+router_004:                          ./libraries/router_004/                         
+descriptor_memory_s1_agent_rsp_fifo: ./libraries/descriptor_memory_s1_agent_rsp_fifo/
+descriptor_memory_s1_agent:          ./libraries/descriptor_memory_s1_agent/         
+sgdma_tx_descriptor_read_agent:      ./libraries/sgdma_tx_descriptor_read_agent/     
+descriptor_memory_s1_translator:     ./libraries/descriptor_memory_s1_translator/    
+sgdma_tx_descriptor_read_translator: ./libraries/sgdma_tx_descriptor_read_translator/
+i_tse_mac:                           ./libraries/i_tse_mac/                          
+rst_controller:                      ./libraries/rst_controller/                     
+mm_interconnect_2:                   ./libraries/mm_interconnect_2/                  
+mm_interconnect_1:                   ./libraries/mm_interconnect_1/                  
+mm_interconnect_0:                   ./libraries/mm_interconnect_0/                  
+tse_mac:                             ./libraries/tse_mac/                            
+sgdma_tx:                            ./libraries/sgdma_tx/                           
+sgdma_rx:                            ./libraries/sgdma_rx/                           
+ethernet_bridge:                     ./libraries/ethernet_bridge/                    
+descriptor_memory:                   ./libraries/descriptor_memory/                  
+altera_ver:                          ./libraries/altera_ver/                         
+lpm_ver:                             ./libraries/lpm_ver/                            
+sgate_ver:                           ./libraries/sgate_ver/                          
+altera_mf_ver:                       ./libraries/altera_mf_ver/                      
+altera_lnsim_ver:                    ./libraries/altera_lnsim_ver/                   
+cyclonev_ver:                        ./libraries/cyclonev_ver/                       
+cyclonev_hssi_ver:                   ./libraries/cyclonev_hssi_ver/                  
+cyclonev_pcie_hip_ver:               ./libraries/cyclonev_pcie_hip_ver/              
+altera:                              ./libraries/altera/                             
+lpm:                                 ./libraries/lpm/                                
+sgate:                               ./libraries/sgate/                              
+altera_mf:                           ./libraries/altera_mf/                          
+altera_lnsim:                        ./libraries/altera_lnsim/                       
+cyclonev:                            ./libraries/cyclonev/                           
+LIBRARY_SCAN = TRUE
